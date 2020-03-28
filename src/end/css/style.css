@@ -3,3 +3,199 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  /* height: 100vh; */
+  /* background-image: url("../img/bg.svg"); */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3em 6vw;
+}
+
+#navbar ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+#navbar li {
+  margin-left: 1.5em;
+  color: black;
+  cursor: pointer;
+}
+
+.logo {
+  background-color: black;
+  padding: 16px;
+  border-radius: 100%;
+  margin-right: 2em;
+  display: flex;
+}
+
+.button {
+  background-color: black;
+  padding: 0.4em 1.5em;
+  border-radius: 25px;
+}
+
+/* pic */
+
+.scroll {
+  /* transform: rotate(-90deg);
+  transform-origin: right top;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden; */
+}
+
+.movie {
+  background-image: url("../img/endgame.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  transform-origin: right top;
+  margin: 5em 8vw;
+  width: 320px;
+  height: 500px;
+  border-radius: 40px;
+  position: relative;
+}
+.movie2 {
+  background-image: url("../img/panther.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  transform-origin: right top;
+  margin: 5em 8vw;
+  width: 320px;
+  height: 500px;
+  border-radius: 40px;
+  position: relative;
+}
+.movie3 {
+  background-image: url("../img/batman.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  transform-origin: right top;
+  margin: 5em 8vw;
+  width: 320px;
+  height: 500px;
+  border-radius: 40px;
+  position: relative;
+}
+.movie4 {
+  background-image: url("../img/guard.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  transform-origin: right top;
+  margin: 5em 8vw;
+  width: 320px;
+  height: 500px;
+  border-radius: 40px;
+  position: relative;
+}
+.movie5 {
+  background-image: url("../img/docto.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  transform-origin: right top;
+  margin: 5em 8vw;
+  width: 320px;
+  height: 500px;
+  border-radius: 40px;
+  position: relative;
+}
+.movie6 {
+  background-image: url("../img/ragnarok.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  transform-origin: right top;
+  margin: 5em 8vw;
+  width: 320px;
+  height: 500px;
+  border-radius: 40px;
+  position: relative;
+}
+.movie7 {
+  background-image: url("../img/alita.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  transform-origin: right top;
+  margin: 5em 8vw;
+  width: 320px;
+  height: 500px;
+  border-radius: 40px;
+  position: relative;
+}
+.movie8 {
+  background-image: url("../img/capt.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  transform-origin: right top;
+  margin: 5em 8vw;
+  width: 320px;
+  height: 500px;
+  border-radius: 40px;
+  position: relative;
+}
+
+.details {
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  padding: 2em;
+  cursor: pointer;
+  /* z-index: 1; */
+}
+
+.movie img {
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.164), rgba(0, 0, 0, 0.89));
+  border-radius: 40px;
+}
+
+.pass {
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  /* display: flex; */
+  position: relative;
+  background-image: url("../img/albaa.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  /* background-color: black; */
+}
+
+.h3 {
+  /* font-family: "Times New Roman", Times, serif; */
+  font-weight: 100;
+  opacity: 0.5;
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
+}
