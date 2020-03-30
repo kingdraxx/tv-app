@@ -50,14 +50,14 @@ a {
 
 /* pic */
 
-.scroll {
-  /* transform: rotate(-90deg);
+/* .scroll {
+  transform: rotate(-90deg);
   transform-origin: right top;
   width: 100vw;
   height: 100vh;
   overflow-y: auto;
-  overflow-x: hidden; */
-}
+  overflow-x: hidden;
+} */
 
 .movie {
   background-image: url("../img/endgame.jpg");
