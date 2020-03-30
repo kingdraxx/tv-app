@@ -66,94 +66,31 @@ a {
   background-blend-mode: darken;
   transform-origin: right top;
   margin: 5em 8vw;
-  width: 320px;
+  width: 320px !important;
   height: 500px;
   border-radius: 40px;
   position: relative;
 }
 .movie2 {
   background-image: url("../img/panther.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-blend-mode: darken;
-  transform-origin: right top;
-  margin: 5em 8vw;
-  width: 320px;
-  height: 500px;
-  border-radius: 40px;
-  position: relative;
 }
 .movie3 {
   background-image: url("../img/batman.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-blend-mode: darken;
-  transform-origin: right top;
-  margin: 5em 8vw;
-  width: 320px;
-  height: 500px;
-  border-radius: 40px;
-  position: relative;
 }
 .movie4 {
   background-image: url("../img/guard.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-blend-mode: darken;
-  transform-origin: right top;
-  margin: 5em 8vw;
-  width: 320px;
-  height: 500px;
-  border-radius: 40px;
-  position: relative;
 }
 .movie5 {
   background-image: url("../img/docto.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-blend-mode: darken;
-  transform-origin: right top;
-  margin: 5em 8vw;
-  width: 320px;
-  height: 500px;
-  border-radius: 40px;
-  position: relative;
 }
 .movie6 {
   background-image: url("../img/ragnarok.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-blend-mode: darken;
-  transform-origin: right top;
-  margin: 5em 8vw;
-  width: 320px;
-  height: 500px;
-  border-radius: 40px;
-  position: relative;
 }
 .movie7 {
   background-image: url("../img/alita.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-blend-mode: darken;
-  transform-origin: right top;
-  margin: 5em 8vw;
-  width: 320px;
-  height: 500px;
-  border-radius: 40px;
-  position: relative;
 }
 .movie8 {
   background-image: url("../img/capt.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-blend-mode: darken;
-  transform-origin: right top;
-  margin: 5em 8vw;
-  width: 320px;
-  height: 500px;
-  border-radius: 40px;
-  position: relative;
 }
 
 .details {
